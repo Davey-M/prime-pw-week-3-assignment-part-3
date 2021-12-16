@@ -113,10 +113,11 @@ console.log('Parts left over:', parts);
 
 // Alternative Method
 
+console.log('Alternative method');
+
 parts = 572;
 let parts_per_box = 7;
 boxes = Math.floor(parts / parts_per_box);
 
-console.log('Alternative method');
 console.log('Number of boxes:', boxes);
 console.log('Parts left over:', parts % parts_per_box);
